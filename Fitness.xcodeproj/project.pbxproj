@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41769AD213273AD002C17AA /* curls.gif in Resources */ = {isa = PBXBuildFile; fileRef = A41769AC213273AC002C17AA /* curls.gif */; };
+		A41769AF21328A9C002C17AA /* gymball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A41769AE21328A9C002C17AA /* gymball.jpg */; };
 		A480288E21312E2600A2B6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480288D21312E2600A2B6A4 /* AppDelegate.swift */; };
 		A480289021312E2600A2B6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480288F21312E2600A2B6A4 /* ViewController.swift */; };
 		A480289321312E2600A2B6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A480289121312E2600A2B6A4 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		A480289821312E2800A2B6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A480289621312E2800A2B6A4 /* LaunchScreen.storyboard */; };
 		A48028A321312E2800A2B6A4 /* FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48028A221312E2800A2B6A4 /* FitnessTests.swift */; };
 		A48028AE21312E2800A2B6A4 /* FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48028AD21312E2800A2B6A4 /* FitnessUITests.swift */; };
+		A481E2042131DD1900130204 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A481E2002131DD1800130204 /* FLAnimatedImage.m */; };
+		A481E2052131DD1900130204 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A481E2032131DD1800130204 /* FLAnimatedImageView.m */; };
+		A481E2072131E70200130204 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E2062131E70200130204 /* Swift+Gif.swift */; };
+		A481E209213246CE00130204 /* Squat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A481E208213246CE00130204 /* Squat1.jpg */; };
+		A481E20B213246D800130204 /* Squat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A481E20A213246D800130204 /* Squat2.jpg */; };
+		A481E20D2132486A00130204 /* squat.gif in Resources */ = {isa = PBXBuildFile; fileRef = A481E20C2132486A00130204 /* squat.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A41769AC213273AC002C17AA /* curls.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = curls.gif; path = ../../Desktop/curls.gif; sourceTree = "<group>"; };
+		A41769AE21328A9C002C17AA /* gymball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gymball.jpg; path = ../../Desktop/gymball.jpg; sourceTree = "<group>"; };
 		A480288A21312E2600A2B6A4 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A480288D21312E2600A2B6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A480288F21312E2600A2B6A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,15 @@
 		A48028A921312E2800A2B6A4 /* FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48028AD21312E2800A2B6A4 /* FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUITests.swift; sourceTree = "<group>"; };
 		A48028AF21312E2800A2B6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A481E1FF2131DD1700130204 /* Fitness-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitness-Bridging-Header.h"; sourceTree = "<group>"; };
+		A481E2002131DD1800130204 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImage.m"; sourceTree = "<group>"; };
+		A481E2012131DD1800130204 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImage.h"; sourceTree = "<group>"; };
+		A481E2022131DD1800130204 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImageView.h"; sourceTree = "<group>"; };
+		A481E2032131DD1800130204 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = "../../../Downloads/FLAnimatedImage-master/FLAnimatedImage/FLAnimatedImageView.m"; sourceTree = "<group>"; };
+		A481E2062131E70200130204 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		A481E208213246CE00130204 /* Squat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Squat1.jpg; path = ../../Desktop/Squat1.jpg; sourceTree = "<group>"; };
+		A481E20A213246D800130204 /* Squat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Squat2.jpg; path = ../../Desktop/Squat2.jpg; sourceTree = "<group>"; };
+		A481E20C2132486A00130204 /* squat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = squat.gif; path = ../../Desktop/squat.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +96,12 @@
 		A480288121312E2600A2B6A4 = {
 			isa = PBXGroup;
 			children = (
+				A481E208213246CE00130204 /* Squat1.jpg */,
+				A41769AE21328A9C002C17AA /* gymball.jpg */,
+				A481E20A213246D800130204 /* Squat2.jpg */,
+				A481E20C2132486A00130204 /* squat.gif */,
+				A41769AC213273AC002C17AA /* curls.gif */,
+				A481E1FE2131D68300130204 /* Library */,
 				A480288C21312E2600A2B6A4 /* Fitness */,
 				A48028A121312E2800A2B6A4 /* FitnessTests */,
 				A48028AC21312E2800A2B6A4 /* FitnessUITests */,
@@ -103,6 +128,7 @@
 				A480289421312E2800A2B6A4 /* Assets.xcassets */,
 				A480289621312E2800A2B6A4 /* LaunchScreen.storyboard */,
 				A480289921312E2800A2B6A4 /* Info.plist */,
+				A481E2062131E70200130204 /* Swift+Gif.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -123,6 +149,18 @@
 				A48028AF21312E2800A2B6A4 /* Info.plist */,
 			);
 			path = FitnessUITests;
+			sourceTree = "<group>";
+		};
+		A481E1FE2131D68300130204 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A481E2012131DD1800130204 /* FLAnimatedImage.h */,
+				A481E2002131DD1800130204 /* FLAnimatedImage.m */,
+				A481E2022131DD1800130204 /* FLAnimatedImageView.h */,
+				A481E2032131DD1800130204 /* FLAnimatedImageView.m */,
+				A481E1FF2131DD1700130204 /* Fitness-Bridging-Header.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +231,7 @@
 				TargetAttributes = {
 					A480288921312E2600A2B6A4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					A480289D21312E2800A2B6A4 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,6 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A481E20B213246D800130204 /* Squat2.jpg in Resources */,
+				A41769AD213273AD002C17AA /* curls.gif in Resources */,
+				A41769AF21328A9C002C17AA /* gymball.jpg in Resources */,
+				A481E20D2132486A00130204 /* squat.gif in Resources */,
+				A481E209213246CE00130204 /* Squat1.jpg in Resources */,
 				A480289821312E2800A2B6A4 /* LaunchScreen.storyboard in Resources */,
 				A480289521312E2800A2B6A4 /* Assets.xcassets in Resources */,
 				A480289321312E2600A2B6A4 /* Main.storyboard in Resources */,
@@ -258,6 +302,9 @@
 			files = (
 				A480289021312E2600A2B6A4 /* ViewController.swift in Sources */,
 				A480288E21312E2600A2B6A4 /* AppDelegate.swift in Sources */,
+				A481E2042131DD1900130204 /* FLAnimatedImage.m in Sources */,
+				A481E2052131DD1900130204 /* FLAnimatedImageView.m in Sources */,
+				A481E2072131E70200130204 /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZJ4DQM8PJ;
 				INFOPLIST_FILE = Fitness/Info.plist;
@@ -439,6 +487,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizzie-Kim.Fitness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Library/Fitness-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZJ4DQM8PJ;
 				INFOPLIST_FILE = Fitness/Info.plist;
@@ -457,6 +508,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Lizzie-Kim.Fitness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Library/Fitness-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
